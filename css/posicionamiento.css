@@ -1,0 +1,39 @@
+body {
+    margin: 8px;
+    display: grid;
+    grid-gap: 20px;
+	grid-template-columns: auto max-content;
+	grid-template-areas:
+    "header header"
+	"content sidebar"
+	"footer footer";
+}
+header {
+    grid-area: header;
+}
+footer {
+    grid-area: footer;
+}
+aside {
+    grid-area: sidebar;
+}
+section {
+    clear: both;
+}
+section img, section video, section audio {
+    float: left;
+    margin-right: 20px;
+}
+@media (max-width: 500px) {
+    body {
+        margin: 8px;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        grid-template-areas:
+        "header"
+        "sidebar"
+        "content"
+        "footer";
+    }
+}
