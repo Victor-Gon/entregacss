@@ -35,5 +35,6 @@ section img, section video, section audio {
         "sidebar"
         "content"
         "footer";
+        font-size: 20px;
     }
 }
