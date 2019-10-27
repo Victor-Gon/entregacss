@@ -1,3 +1,4 @@
+/* esp = 1 */
 body {
     margin: 8px;
     display: grid;
@@ -8,23 +9,29 @@ body {
 	"content sidebar"
 	"footer footer";
 }
+/* esp = 1 */
 header {
     grid-area: header;
 }
+/* esp = 1 */
 footer {
     grid-area: footer;
 }
+/* esp = 1 */
 aside {
     grid-area: sidebar;
 }
+/* esp = 1 */
 section {
     clear: both;
 }
+/* esp = 2 */
 section img, section video, section audio {
     float: left;
     margin-right: 20px;
 }
 @media (max-width: 500px) {
+    /* esp = 1 */
     body {
         margin: 8px;
         display: grid;
